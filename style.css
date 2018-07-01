@@ -59,17 +59,36 @@ header nav {
 .content {
   display: flex;
   width: 100%;
-  padding-top: 100px;
+  padding-top: 120px;
+  border: solid 1px #000000;
 }
 
 .column.large {
   width: 630px;
+  margin-right: 30px;
+  border: solid 2px #000000;
 }
 
 .column.medium {
   width: 300px;
+  margin-right: 30px;
 }
 
 .column.small {
   width: 240px;
+  margin-right: 30px;
+  border: solid 1px #000000;
+}
+
+.stories {
+  border: solid 1px #000000;
+}
+
+.story {
+  border: solid 1px #000000;
+}
+
+
+.news-bites {
+  border: solid 1px #000000;
 }
