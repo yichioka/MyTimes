@@ -72,7 +72,6 @@ header nav {
 
 .column.large {
   width: 630px;
-
   border: solid 2px #000000;
 }
 
@@ -86,21 +85,54 @@ header nav {
 }
 
 .lead-story .image-content span {
-
   font-family: Georgia;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   color: white;
-
 }
 
 .earth {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
-  width: 100%;
   height: 300px;
+  text-align: center;
 }
 
 .earth span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.Research {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  height: 300px;
+  text-align: center;
+}
+
+.Research span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.Cats {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  height: 300px;
+  text-align: center;
+}
+
+.Cats span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+
+
+.earth .Research span {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
