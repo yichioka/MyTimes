@@ -50,6 +50,7 @@ header nav {
 }
 
 .image-content {
+  height: 300px;
   border: solid 1px #000000;
 }
 
@@ -76,15 +77,13 @@ header nav {
 }
 
 
-.lead-story .image-content {
+.Mother  {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
-  width: 630px;
-  margin-top: 0;
   font-size: 40px;
-  height: 300px;
+
 }
 
-.lead-story .image-content span {
+.Mother .Research .Cats span {
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
@@ -93,16 +92,11 @@ header nav {
 
 .earth {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
-  height: 300px;
+
   text-align: center;
 }
 
-.earth span {
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-}
+
 
 .Research {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
@@ -110,7 +104,7 @@ header nav {
   text-align: center;
 }
 
-.Research span {
+.earth span{
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -119,20 +113,17 @@ header nav {
 
 .Cats {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
-  height: 300px;
+
   text-align: center;
 }
 
-.Cats span {
+
+
+.text-content{
   font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
+  font-size: 17px;
+  color: black;
 }
-
-
-
-
 
 .column.medium {
   width: 300px;
